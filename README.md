@@ -31,6 +31,10 @@ Yield curve impact using 2s10s slope (basis point change)
 Volatility shock vs curve transmission scatter analysis
 PDF export for use in reports, portfolios, and interview discussion
 
+### Visualization Note
+
+FX spot prices are displayed in absolute levels to preserve economic context (e.g., USDJPY vs EURUSD). Because FX pairs trade on different numerical scales, relative price movement comparisons may appear visually compressed for lower-level pairs. Event-window reaction metrics and tabular outputs should be used for cross-asset comparison.
+
 ## Architecture
 
 FX-Rates-Policy-Reaction-Tracker/
@@ -75,6 +79,7 @@ FX spot prices: Yahoo Finance (EURUSD=X, GBPUSD=X, USDJPY=X)
 Sovereign yields: Yahoo Finance government bond tickers
 Volatility: ATM implied volatility proxies
 Policy calendar: User-defined CSV (follows included schema)
+
 
 
 
