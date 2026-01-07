@@ -3,6 +3,10 @@
 A multi-asset dashboard for analyzing market reactions to central bank policy decisions.
 Tracks FX spot moves, yield curve shifts, and volatility changes around policy events (Fed, ECB, BoE, BoC).
 
+## Problem Context
+
+Market reactions to central bank policy decisions are often discussed qualitatively, but comparing transmission across FX, rates, and volatility in a consistent, event-driven framework is nontrivial. This project was built to quantify how different central banks transmit policy signals across asset classes by standardizing event windows and measuring cross-asset responses around policy decisions.
+
 ## Live App
 https://fx-rates-policy-reaction-tracker-ru45vwkrmjnwawnqdoqyct.streamlit.app
 
@@ -71,5 +75,6 @@ FX spot prices: Yahoo Finance (EURUSD=X, GBPUSD=X, USDJPY=X)
 Sovereign yields: Yahoo Finance government bond tickers
 Volatility: ATM implied volatility proxies
 Policy calendar: User-defined CSV (follows included schema)
+
 
 
